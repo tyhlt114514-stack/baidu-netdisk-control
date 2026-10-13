@@ -1,0 +1,20 @@
+# Per-user credentials, account state, indexes and task receipts
+.private/
+config.json
+
+# Downloaded runtime and generated machine-specific plugin wiring
+bin/
+.venv/
+runtime.json
+mcp.json
+.mcp.json
+plugin/
+
+# Local files, verification artifacts and publication staging
+cache/
+artifacts/
+publish/
+dist/
+__pycache__/
+*.py[cod]
+*.log

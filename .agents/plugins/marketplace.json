@@ -1,0 +1,12 @@
+{
+  "name": "baidu-netdisk-local",
+  "interface": {"displayName": "百度网盘本地插件"},
+  "plugins": [
+    {
+      "name": "baidu-netdisk-control",
+      "source": {"source": "local", "path": "./plugin"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_USE"},
+      "category": "Productivity"
+    }
+  ]
+}

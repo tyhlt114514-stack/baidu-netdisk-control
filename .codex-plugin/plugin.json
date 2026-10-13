@@ -1,0 +1,15 @@
+{
+  "name": "baidu-netdisk-control",
+  "version": "0.2.2",
+  "description": "通过本地 MCP 直接管理百度网盘：上传、下载、文件管理与分享。",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "百度网盘操控",
+    "shortDescription": "直接上传和管理百度网盘文件",
+    "longDescription": "结构化全盘索引、自动缓存与文档读取、原图查看、单文件及目录传输，提供本地账号授权和逐文件核验回执。",
+    "developerName": "Local Workspace",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"]
+  }
+}
